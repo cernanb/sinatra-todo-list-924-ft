@@ -1,0 +1,4 @@
+<h1> todos</h1>
+<% @all_content.each do |todo| %>
+    <p><a href="/todos/<%= todo.id %>"><%= todo.content%></a></p>
+<%end%>
